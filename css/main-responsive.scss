@@ -1,0 +1,487 @@
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .brand-pd {
+        padding: 0 20px;
+    }
+
+    .brand-container {
+        .brand-txt {
+            p {
+                margin: 0 0 20px;
+            }
+
+            .brand-btn {
+                margin: 20px 0 0;
+            }
+        }
+    }
+
+    .emp-banner-wrapper {
+        width: 90%;
+
+        .emp-banner {
+            .emp-box {
+                height: 260px;
+            }
+        }
+    }
+
+    .portfolio-sec {
+        .main-section {
+            height: 1180px;
+
+            .port-1,
+            .port-2,
+            .port-3,
+            .port-4,
+            .port-txt,
+            .port-txt-btn {
+                width: 450px;
+            }
+
+            .port-txt {
+                padding: 50px 0 20px;
+            }
+
+            .port-3 {
+                top: 430px;
+            }
+
+            .port-4 {
+                top: 790px;
+            }
+
+            .port-txt-btn {
+                top: 940px;
+            }
+
+            .port-2,
+            .port-4,
+            .port-txt {
+                right: 0;
+                left: unset;
+            }
+        }
+    }
+
+    .app-design {
+        .app-mobile {
+            .img-slide {
+                left: 42px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .main-container {
+        .head-container {
+            .main-header {
+                justify-content: space-between;
+            }
+
+            .header-wrapper {
+                width: 100%;
+            }
+        }
+    }
+
+    .scroll-header {
+        justify-content: space-between;
+    }
+
+    .scroll-header .nav-bar .logo {
+        position: absolute;
+        left: 40px;
+    }
+
+    .scroll-header .humburger-menu {
+        position: absolute;
+        right: 40px;
+    }
+
+    .nav-bar {
+        justify-content: flex-start;
+    }
+
+    .humburger-menu {
+        position: unset;
+    }
+
+    .nav-bar .logo {
+        padding: 20px 10px;
+    }
+
+    .nav-bar .navigation {
+        display: none;
+    }
+
+    .brand-container {
+        flex-direction: column;
+        width: 100%;
+
+        .brand-txt {
+            max-width: 100%;
+            width: 90%;
+            margin: 0 auto;
+            padding: 110px 0;
+
+            .award-txt {
+                padding: 60px 30px;
+            }
+        }
+
+        .brand-img {
+            max-width: 100%;
+        }
+    }
+
+    .emp-banner-wrapper {
+        flex-direction: column;
+
+        .emp-banner {
+            .emp-box {
+                height: 340px;
+            }
+        }
+    }
+
+    .portfolio-sec {
+        .main-section {
+            display: flex;
+            position: unset;
+            flex-direction: column;
+            padding: 70px 30px;
+            height: auto;
+
+            .port-1,
+            .port-2,
+            .port-3,
+            .port-4,
+            .port-txt,
+            .port-txt-btn {
+                position: unset;
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    }
+
+    .pricing-banner {
+        flex-direction: column;
+
+        .pricing-box {
+            justify-content: center;
+            align-items: center;
+            margin: 40px 30px;
+            text-align: center;
+
+            ul {
+                li {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    .brand-height {
+        height: 600px;
+        flex-direction: row;
+    }
+
+    .pad-txt {
+        margin: unset !important;
+        padding: unset !important;
+        width: 100% !important;
+    }
+
+    .back-fluid-img {
+        .img-container {
+            margin: 0 auto;
+
+            .award-sec {
+                margin: 0 auto;
+
+                .award-data {
+                    .award-top-data {
+                        padding: 30px !important;
+
+                        h3,
+                        p {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            .award-txt {
+                padding: 60px 30px;
+            }
+        }
+    }
+
+    .app-design {
+
+        .app-wrapper {
+            .app-content {
+                padding: 10px 0;
+            }
+        }
+
+        .app-mobile {
+            .img-slide {
+                top: 56px;
+                left: 19px;
+                max-width: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .main-container {
+        .head-container {
+            .header-wrapper {
+
+                .play-icon {
+                    a {
+                        i {
+                            font-size: 14px;
+                        }
+
+                        .icon-wrapper {
+                            padding: 22px;
+                        }
+                    }
+                }
+
+                h2 {
+                    font-size: 36px;
+                }
+
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .brand-container {
+        .brand-txt {
+            margin: 0 auto;
+            padding: 70px 0;
+            width: 90%;
+            text-align: center;
+
+            .brand-btn {
+                a {
+                    margin: 0 auto;
+                }
+            }
+
+            h2 {
+                font-size: 36px;
+            }
+        }
+    }
+
+    .service-container {
+        .service-wrapper {
+            .service-div {
+                flex-direction: column;
+            }
+        }
+    }
+
+    .bg-digital {
+        .digital-wrapper {
+            h1 {
+                font-size: 32px;
+            }
+        }
+    }
+
+    .emp-banner-wrapper {
+        width: 90%;
+
+        .emp-banner {
+            .emp-box {
+                flex-direction: column;
+                height: auto;
+
+                .emp-img {
+                    width: 100% !important;
+                    max-width: 100% !important;
+                }
+
+                .emp-txt {
+                    max-width: 100% !important;
+                    text-align: center;
+                    padding: 40px 20px;
+
+                    .social-icon {
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .pad-txt {
+        margin: unset !important;
+        padding: unset !important;
+        width: 100% !important;
+    }
+
+    .award-txt {
+        padding: 60px 30px;
+    }
+
+    .back-fluid-img {
+        justify-content: center;
+
+        .img-container {
+            .award-sec {
+                margin: unset;
+
+                .award-data {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    .award-top-data {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 20px 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .brand-height {
+        flex-direction: column;
+        height: 1200px;
+    }
+
+    .service-container {
+        .service-wrapper {
+            padding: 50px 0;
+
+            .service-head {
+                h2 {
+                    font-size: 36px;
+                }
+
+                p {
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+
+    .app-design {
+        flex-direction: column;
+
+        .app-wrapper {
+            width: 70%;
+        }
+
+        .app-mobile {
+            margin: 30px 0;
+            width: 178px;
+            height: 352px;
+
+            .img-slide {
+                top: 42px;
+                left: 15px;
+                max-width: 149px;
+            }
+        }
+    }
+
+    .portfolio-sec {
+        .main-section {
+            .port-txt-btn {
+                .port-left {
+                    h2 {
+                        font-size: 60px;
+                    }
+                }
+
+                .port-btn {
+                    a {
+                        font-size: 10px;
+                        padding: 8px 20px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .info-container {
+        flex-direction: column;
+
+        .info-txt {
+            padding: 50px 30px;
+            width: 100%;
+
+            h4 {
+                font-size: 35px;
+            }
+        }
+
+        .info-img {
+            width: 100%;
+        }
+
+        .info-left-img {
+            width: 100%;
+        }
+    }
+
+    .footer-sec {
+        .footer {
+            .footer-icons {
+                .f-icons {
+                    a {
+                        margin: 6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .info-container {
+        .forms {
+            .form-sec {
+                .form-data {
+                    flex-direction: column;
+
+                    .form-input {
+                        width: 100%;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
